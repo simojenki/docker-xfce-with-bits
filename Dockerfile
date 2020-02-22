@@ -11,6 +11,7 @@ RUN apt-get -y install \
         firefox \
 				less \
 				scite \
+				iputils-ping \
         hexchat && \
     apt-get autoremove -y && \
     apt-get clean -y
